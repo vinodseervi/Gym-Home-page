@@ -1,0 +1,113 @@
+.header{
+    position: sticky;
+}
+/* css reset */
+body{
+font-family: 'Lobster', cursive;
+   margin: 0px;
+   padding: 0%;
+   background-image: url('IMG/jp.jpg');
+
+   
+   color: white;
+
+}
+.left{
+position: absolute;
+   left: 34px;
+   top: 5px;
+   display: inline-block;
+   /* position: sticky; */
+   
+
+   /* border: 2px solid red; */
+   
+
+}
+.left img{
+   width:149px;
+   filter: invert(100%);
+  
+   
+}
+.left p{
+line-height: 5px;
+   font-size: 25px;
+   text-align: center;
+}
+.mid{
+   display: block;
+  
+   width: 36%;
+   margin: 22px auto;
+  
+  
+/* border: 2px solid rgb(66, 8, 202); */
+
+}
+.right{
+   position: absolute;
+   right: 34px;
+   top: 22px;
+display: inline-block;
+/* border: 2px solid rgb(88, 226, 47); */
+
+}
+/* .navbar{ 
+   display: inline-block;
+}*/
+.navbar li{
+   display: inline-block;
+   font-size: 20px;
+
+}
+.navbar a {
+   color: white;
+   text-decoration: none;
+   padding: 5px;
+}
+.navbar li a:hover,.navbar li a.active{
+   text-decoration: underline;
+   color: yellow;
+}
+.btn{
+font-family: 'Lobster', cursive;
+   margin: 0px 9px;
+   color: violet;
+   background-color: black;
+   padding: 4px 14px;
+   border-radius: 10px;
+   font-size: 20px;
+   cursor: pointer;
+}
+.btn:hover{
+ color: rgb(247, 26, 55);
+ background-color: grey;
+}
+.container{
+   /* border: 2px solid rgb(245, 250, 245); */
+   margin: 30px 70px;
+   color: blueviolet;
+   padding: 75px;
+   width: 43%;
+   border-radius: 10px;
+}
+.form-group input{
+   text-align: center;
+   font-family: 'Baloo Bhai 2', cursive;
+   display: block;
+   width: 434px;
+   padding: 1px;
+   border-radius: 8px;
+   border:2px solid black ;
+   margin: 6px auto;
+   font-size: 22px;
+}
+.container h1{
+   text-align: center;
+}
+.container button {
+   display: block;
+   margin: 10px auto;
+   width: 434px;
+}
